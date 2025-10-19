@@ -22,6 +22,7 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import static org.mockito.Mockito.*;
@@ -75,6 +76,7 @@ public class TestRegistroMedico {
         medico = new Medico();
         medico.setId(10L);
         medico.setNombre("Dr. Leviatan");
+        medico.setTelefonos(new ArrayList<>());
     }
 
     // Registro exitoso

@@ -18,6 +18,7 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -69,7 +70,11 @@ public class TestRegistroPaciente {
         // Configurar mocks
         Eps eps = new Eps();
         when(epsService.encontrarEps(1L)).thenReturn(eps);
-        when(pacienteMapper.toEntity(any())).thenReturn(new Paciente());
+        when(pacienteMapper.toEntity(any())).thenAnswer(invocationOnMock -> {
+            Paciente p = new Paciente();
+            p.setTelefonos(new ArrayList<>());
+            return p;
+        });
 
         // Ejecutar método
         pacienteService.registrarPaciente(pacienteValidoDto);
