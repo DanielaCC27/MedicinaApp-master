@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="pacienteTest.TestEliminarPaciente" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-10-18T16:33:54.743Z" hostname="DESKTOP-9DF6ACD" time="0.07">
-  <properties/>
-  <testcase name="eliminarPaciente_Correcto()" classname="pacienteTest.TestEliminarPaciente" time="0.05"/>
-  <testcase name="eliminarPaciente_ContraseñaIncorrecta_LanzaExcepcion()" classname="pacienteTest.TestEliminarPaciente" time="0.008"/>
-  <testcase name="eliminarPaciente_PacienteNoEncontrado_LanzaExcepcion()" classname="pacienteTest.TestEliminarPaciente" time="0.009"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
