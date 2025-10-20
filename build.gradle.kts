@@ -60,6 +60,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     // Driver JDBC para Oracle (versión 21.x).TE MU
     //implementation("com.oracle.database.jdbc:ojdbc11:23.2.0.0")
+    implementation("org.postgresql:postgresql:42.7.4")
     runtimeOnly("org.postgresql:postgresql:42.7.4")
 
     // ==== Utilidades ====
