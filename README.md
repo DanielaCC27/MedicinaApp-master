@@ -12,9 +12,6 @@ El sistema gestiona **citas médicas, pacientes, médicos y usuarios administrat
 - **Swagger UI:**  
   👉 [http://158.247.124.84:8080/swagger-ui/index.html](http://158.247.124.84:8080/swagger-ui/index.html)
 
-- **Base URL:**  
-  http://158.247.124.84:8080
-
 
 ---
 
