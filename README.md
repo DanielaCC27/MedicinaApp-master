@@ -1,7 +1,7 @@
 # 🩺 API Citas Médicas — Proyecto Final
 
 Proyecto desarrollado con **Spring Boot  (Java 21)** y base de datos **PostgreSQL (Docker)**.  
-Desplegado en una **VPS pública de Oracle Cloud (Ubuntu 22.04)** con conexión abierta para pruebas externas mediante Postman o navegador.
+Desplegado en una VPS pública en render para conectar al frontend. 
 
 El sistema gestiona **citas médicas, pacientes, médicos y usuarios administrativos**, usando autenticación **JWT (tokens)** y arquitectura **REST**.
 
